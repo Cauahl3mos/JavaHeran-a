@@ -1,0 +1,51 @@
+package com.cinepro.model;
+
+public class Titulo {
+    private String titulo;
+    private String genero;
+    private int tempoEmMinutos;
+    private double avalicao;
+    private String diretor;
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public int getTempoEmMinutos() {
+        return tempoEmMinutos;
+    }
+
+    public void setTempoEmMinutos(int tempoEmMinutos) {
+        this.tempoEmMinutos = tempoEmMinutos;
+    }
+
+    public double getAvalicao() {
+        return avalicao;
+    }
+
+    public void setAvalicao(double avalicao) {
+        this.avalicao = avalicao;
+    }
+
+    public String getDiretor() {
+        return diretor;
+    }
+
+    public void setDiretor(String diretor) {
+        this.diretor = diretor;
+    }
+}
+
+
