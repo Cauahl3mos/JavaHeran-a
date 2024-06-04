@@ -1,0 +1,24 @@
+package com.cinepro.model;
+
+public class Main {
+    public static void main(String[] args) {
+        Filme fl = new Filme();
+        fl.setTitulo("Vovozona");
+        fl.setGenero("Comédia");
+        fl.setAvalicao(9.0);
+
+        System.out.println("Titulo " + fl.getTitulo());
+        System.out.println("genero " + fl.getGenero());
+        System.out.println("avalição " + fl.getAvalicao());
+
+        Serie s1 = new Serie();
+
+       s1.setTitulo("TheBoys");
+       s1.setGenero("Ação");
+       s1.setAvalicao(8.0);
+
+        System.out.println("Titulo " + s1.getTitulo());
+        System.out.println("genero " + s1.getGenero());
+        System.out.println("avalição " + s1.getAvalicao());
+    }
+}
